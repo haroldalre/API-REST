@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class JSONPlaceholderAPITest {
+public class RestAPITest {
 
     @Test
-    public void testJSONPlaceholderAPI() {
+    public void testRestAPI() {
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
 
         // Get a random user (user ID) and print their email address
